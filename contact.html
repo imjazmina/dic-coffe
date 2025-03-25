@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="header_nav">
+            <a href="index.html" class="logo"><img src="imagen/sample_logo_k.png"></a>
+            <ul class="global_nav">
+                <a href="index.html" class="global_nav_item">
+                    <li>Home</li>
+                </a>
+                <a href="#" class="global_nav_item">
+                    <li>Menu</li>
+                </a>
+                <a href="contact.html" class="global_nav_item">
+                    <li>Contacto</li>
+                </a>
+            </ul>
+        </ul>
+        </nav>
+    </header>
+    <section class="section_inner">
+        <div class="section_title">
+        <h1>CONTACTO</h1>
+        <p>Consulta</p>
+        </div>
+        <form action="#" method="post">
+        <table class="contact">
+            <tr class="contact_line">
+                <td class="contact_sign">
+                    <label for="name">Nombre</label>
+                </td>
+                <td class="contact_sign">
+                    <input type="text" name="name" id="name">
+                </td>
+            </tr>
+            <tr class="contact_line">
+                <td class="contact_sign"><label for="phonenumber">Informacion de contacto</label></td>
+                <td class="contact_sign"><input type="tel" name="phonenumber" id="phonenumber"></td>
+            </tr>
+            <tr class="contact_line">
+                <td class="contact_sign"><label for="region">Donde vives</label></td>
+                <td class="contact_sign">
+                    <select id="region">
+                        <option value="0">Seleccione una ciudad</option>
+                        <option value="1">Mariano R. Alonso</option>
+                        <option value="2">Lambare</option>
+                        <option value="3">San Lorenzo</option>
+                        <option value="4">Fernando de la Mora</option>
+                        <option value="5">Villa Elisa</option>
+                        <option value="6">Ñemby</option>
+                        <option value="7">Ypane</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr class="contact_line">
+                    <td class="contact_sign"><label for="content">Contenido</label></td>
+                    <td class="contact_sign"><textarea name="content" id="content"></textarea></td>
+                </tr>
+            </table>
+            <div class="contact_button_area">
+                <button type="reset" class="contact_btn reset_btn">Reiniciar</button>
+                <button type="submit" class="contact_bt submit_btn">Enviar</button>
+            </div> 
+        </form>
+    </section>
+    <footer class="footer">
+        <nav>
+        <ul class="footer_nav">
+            <a href="index.html" class="footer_nav_item">
+                <li>Home</li>
+            </a>
+            <a href="#" class="footer_nav_item">
+                <li>Menu</li>
+            </a>
+            <a href="contact.html" class="footer_nav_item">
+                <li>Contacto</li>
+            </a>
+            <a href="index.html" class="footer_class_item">
+                <li>
+                    <img src="imagen/sample_logo_w.png" class="footer_logo">
+                </li>
+            </a>
+        </ul>
+    </nav>
+    <p class="footer_rigth">© DIVE INTO CODE Corp. All RIGHTS RESERVED.</p>
+</footer>
+</body>
+</html>
