@@ -1,4 +1,4 @@
-### Dic Coffe
+# Dic Coffe
 Tienda online de una cafeteria
 
 ## Que tiene?
